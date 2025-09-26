@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Árvore de Formulários</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #3b82f6, #9333ea);
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 420px;
+      background: rgba(0, 0, 0, 0.55);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.4);
+      animation: fadeIn 1s ease;
+    }
+
+    h1 {
+      margin-bottom: 25px;
+      font-size: 2em;
+      color: #ffde59;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: #fff;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 14px 0;
+      padding: 15px;
+      border-radius: 12px;
+      transition: all 0.3s ease;
+      font-size: 1.1em;
+    }
+
+    .link:hover {
+      background: #3b82f6;
+      color: #fff;
+      transform: scale(1.07);
+    }
+
+    footer {
+      margin-top: 18px;
+      font-size: 0.9em;
+      opacity: 0.85;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Formulários Escolares</h1>
+
+    <!-- Cole aqui os links dos formulários -->
+    <a class="link" href="https://docs.google.com/forms/d/e/1FAIpQLSdex0wg72aZ8F14uDeHeRE0RwpeRmTFt3C2Drj1L3Tz93zHsA/viewform?usp=dialog" target="_blank">Qualidade do sono</a>
+    <a class="link" href="LINK_DO_FORM_2" target="_blank">📊 Nome do Formulário 2</a>
+    <a class="link" href="LINK_DO_FORM_3" target="_blank">📌 Nome do Formulário 3</a>
+    <a class="link" href="LINK_DO_FORM_4" target="_blank">✅ Nome do Formulário 4</a>
+
+    <footer>Colégio Estadual São José</footer>
+  </div>
+</body>
+</html>
